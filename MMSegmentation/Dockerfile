@@ -71,3 +71,4 @@ RUN pip install git+https://github.com/cocodataset/panopticapi.git
 RUN pip install git+https://github.com/aleju/imgaug.git
 RUN pip3 install imagecorruptions
 RUN mkdir -p /mmsegmentation/results
+COPY inference_demo.py /mmsegmentation/demo/
