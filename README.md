@@ -4,7 +4,7 @@
 
 
 
-## Deployment
+## Despliegue
 
 Primero debemos crear la imagen de docker haciendo uso del `Dockerfile` que se encuentra en la carpeta `MMSegmentation`
 ```bash
@@ -18,7 +18,7 @@ Con el contenedor ya creado podemos acceder a el con el comando `attach` o arran
 ```bash
 docker attach [id-contenedor] o docker start -ai [id-contenedor]
 ```
-## Usage/Examples
+## Uso/Ejemplos
 
 Con el contenedor ya en funcionamiento se pueden realizar pruebas de inferencia con imágenes usando este script de python
 ```bash
@@ -30,7 +30,7 @@ python -W ignore demo/inference_demo.py data/ade20k/ work_dirs/ade20k/mask2forme
 ```
 
 
-## Related
+## Referencias
 
 ### Enlaces de interés
 
@@ -43,7 +43,7 @@ python -W ignore demo/inference_demo.py data/ade20k/ work_dirs/ade20k/mask2forme
 [The Beginner’s Guide to Semantic Segmentation](https://www.v7labs.com/blog/semantic-segmentation-guide)
 
 [The Ultimate Guide to Medical Image Annotation](https://www.v7labs.com/blog/medical-image-annotation-guide)
-## Authors
+## Autores
 
 - [@reyesanfer](https://github.com/reyesanfer)
 
