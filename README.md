@@ -10,7 +10,7 @@ Primero debemos crear la imagen de docker haciendo uso del `Dockerfile` que se e
 ```bash
 docker build -t mmsegmentation .\MMSegmentation\
 ```
-Una vez se ha creado la imagen correctamente podemos crear un contenedor de docker usando esa imagen. La ruta del `bind-mount` nos permite tener una ruta compartida entre el `host`y el `contenedor` para visualizar los resultados facilmente
+Una vez se ha creado la imagen correctamente podemos crear un contenedor de docker usando esa imagen. La ruta del `bind-mount` nos permite tener una ruta compartida entre el `host` y el `contenedor` para visualizar los resultados facilmente
 ```bash
 docker run -d --gpus all --shm-size=8g -it -v [bind-mount-route-for-results]:/mmsegmentation/results --name [container-name] [image-name]
 ```
@@ -32,11 +32,11 @@ python -W ignore demo/inference_demo.py data/ade20k/ work_dirs/ade20k/mask2forme
 
 ## Related
 
-Enlaces de interés
+### Enlaces de interés
 
 []()
 
-Referencias
+### Referencias
 
 [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main)
 
