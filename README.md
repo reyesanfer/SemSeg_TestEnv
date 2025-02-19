@@ -12,7 +12,7 @@ Primero debemos crear la imagen de docker haciendo uso del `Dockerfile` que se e
 ```bash
 docker build -t mmsegmentation .\MMSegmentation\
 ```
-Una vez se ha creado la imagen correctamente podemos crear un contenedor de docker usando esa imagen. La ruta del `bind-mount` nos permite tener una ruta compartida entre el `host` y el `contenedor` para visualizar los resultados facilmente
+Una vez se ha creado la imagen correctamente podemos crear un contenedor de docker usando esa imagen. La ruta del `bind-mount` nos permite tener una carpeta compartida entre el `host` y el `contenedor` para visualizar los resultados facilmente
 ```bash
 docker run -d --gpus all --shm-size=8g -it -v [bind-mount-route-for-results]:/mmsegmentation/results --name [container-name] [image-name]
 ```
@@ -36,16 +36,21 @@ python -W ignore demo/inference_demo.py data/ade20k/ work_dirs/ade20k/mask2forme
 
 ### Enlaces de interés
 
-[]()
+- [Segmentación de imágen médica](https://huggingface.co/spaces/kbressem/MRSegmentator)
+- [Segmentador para conducción autónoma](https://huggingface.co/spaces/Rohit8y/Semantic-Segmentation)
+- [Segmentador selectivo](https://huggingface.co/spaces/SkalskiP/florence-sam)
+- [Entorno de pruebas multimodal](https://huggingface.co/spaces/shi-labs/OneFormer)
+- [SAM Demo](https://segment-anything.com/demo)
+- [Entorno multi proposito](https://huggingface.co/spaces/EPFL-VILAB/4M)
 
 ### Referencias
 
-[MMSegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main)
+- [MMSegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main)
 
-[The Beginner’s Guide to Semantic Segmentation](https://www.v7labs.com/blog/semantic-segmentation-guide)
+- [The Beginner’s Guide to Semantic Segmentation](https://www.v7labs.com/blog/semantic-segmentation-guide)
 
-[The Ultimate Guide to Medical Image Annotation](https://www.v7labs.com/blog/medical-image-annotation-guide)
+- [The Ultimate Guide to Medical Image Annotation](https://www.v7labs.com/blog/medical-image-annotation-guide)
 ## Autores
 
-- [@reyesanfer](https://github.com/reyesanfer)
+- [Fernando Sanfiel Reyes](https://github.com/reyesanfer)
 
