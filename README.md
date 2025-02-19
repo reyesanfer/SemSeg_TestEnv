@@ -6,7 +6,7 @@
 - Nootebook sobre métodos clásicos [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/reyesanfer/SemSeg_TestEnv/blob/main/tecnicas_clasicas/tecnicas_clasicas_segmentacion.ipynb)
 - Nootebook sobre métodos de Deep Learning [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/reyesanfer/SemSeg_TestEnv/blob/main/deep_learning/modelos_de_deep_learning.ipynb)
 
-### Entorno con Docker ![](https://static-00.iconduck.com/assets.00/docker-icon-2048x2048-5mc7mvtn.png)
+<h3>Entorno con Docker <img src="https://static-00.iconduck.com/assets.00/docker-icon-2048x2048-5mc7mvtn.png" style="width: 1em; height: 1em; vertical-align: middle;"></h3>
 
 Primero debemos crear la imagen de docker haciendo uso del `Dockerfile` que se encuentra en la carpeta `MMSegmentation`
 ```bash
