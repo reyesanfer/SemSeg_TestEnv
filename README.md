@@ -3,8 +3,8 @@
 ## Despliegue
 
 ### Ejecución con Google Colab
-Nootebook sobre métodos clásicos [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/reyesanfer/SemSeg_TestEnv/blob/main/tecnicas_clasicas/tecnicas_clasicas_segmentacion.ipynb)
-Nootebook sobre métodos de Deep Learning [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/reyesanfer/SemSeg_TestEnv/blob/main/deep_learning/modelos_de_deep_learning.ipynb)
+- Nootebook sobre métodos clásicos [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/reyesanfer/SemSeg_TestEnv/blob/main/tecnicas_clasicas/tecnicas_clasicas_segmentacion.ipynb)
+- Nootebook sobre métodos de Deep Learning [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/reyesanfer/SemSeg_TestEnv/blob/main/deep_learning/modelos_de_deep_learning.ipynb)
 
 ### Entorno con Docker ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
