@@ -6,6 +6,9 @@ Por ejemplo, en una imagen de un paisaje, la segmentación semántica puede colo
 
 Esta técnica es muy utilizada en aplicaciones como la conducción autónoma, donde los vehículos necesitan identificar objetos como vehículos, peatones, señales de tráfico y aceras.
 También se emplea en aplicaciones médicas para ayudar a los médicos a analizar imágenes de pacientes y realizar diagnósticos.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/78292851/139591258-600d7341-66e0-47d9-85c7-409eaf4d01c3.gif" width="500">
+</p>
 
 ## Despliegue
 
