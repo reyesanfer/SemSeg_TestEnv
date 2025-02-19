@@ -1,5 +1,12 @@
 # ¿Que es la segmentación semántica?
 
+La segmentación semántica es una técnica que permite asignar una etiqueta o categoría a cada píxel de una imagen, lo que permite crear regiones dentro de la imagen y atribuir un significado semántico a cada una de ellas.
+
+Por ejemplo, en una imagen de un paisaje, la segmentación semántica puede colorear los píxeles de los árboles de un color, los de los ríos de otro, y los de las nubes de otro color más.
+
+Esta técnica es muy utilizada en aplicaciones como la conducción autónoma, donde los vehículos necesitan identificar objetos como vehículos, peatones, señales de tráfico y aceras.
+También se emplea en aplicaciones médicas para ayudar a los médicos a analizar imágenes de pacientes y realizar diagnósticos.
+
 ## Despliegue
 
 ### Ejecución con Google Colab
