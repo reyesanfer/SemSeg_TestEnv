@@ -62,5 +62,5 @@ python -W ignore demo/inference_demo.py data/ade20k/ work_dirs/ade20k/mask2forme
 - [The Ultimate Guide to Medical Image Annotation](https://www.v7labs.com/blog/medical-image-annotation-guide)
 ## Autores
 
-- [Fernando Sanfiel Reyes](https://github.com/reyesanfer)
+- [Fernando Sanfiel Reyes](https://github.com/reyesanfer) (fernando.sanfiel@ulpgc.es)
 
